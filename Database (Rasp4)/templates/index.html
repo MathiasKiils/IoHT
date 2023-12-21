@@ -1,0 +1,35 @@
+<!-- login -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    
+
+    <header>
+        <h2 class="logo">Devices</h2>
+    </header>
+
+    <div class="textbox" onclick="handleClick(1)">
+        <button>Device 1</button>
+      </div>
+      
+      <div class="textbox" onclick="handleClick(2)">
+        <button>Device 2</button>
+      </div>
+      
+      <div class="textbox" onclick="handleClick(3)">
+        <button>Device 3</button>
+      </div>
+
+      <script src="{{ url_for('static', filename='directPage.js') }}"></script>
+
+</body>
+
+</html>

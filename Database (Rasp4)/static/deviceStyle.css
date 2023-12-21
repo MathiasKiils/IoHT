@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('backgroundWithSquare.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.side-by-side-container {
+    display: flex;
+}
+
+.random-container {
+    margin: 55px;
+    text-align: center;
+}
+
+.random-text {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.random-number {
+    margin-top: 60px;
+    font-size: 45px;
+    color: white;
+}
+
+.custom-container {
+    text-align: center;
+}
+
+.custom-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 45px;
+}

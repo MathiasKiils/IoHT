@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='deviceStyle.css') }}">
+</head>
+
+<body>
+    
+    <header>
+        <a href="{{ url_for('index') }}">Data</a>
+    </header>    
+
+    <div class="custom-container">
+        <div class="custom-text">Device 1</div>
+    </div>
+
+    <div class="side-by-side-container">
+        <div class="random-container">
+            <div class="random-text">Temp:</div>
+            <div class="random-number" id="temp1"></div>
+        </div>
+        <div class="random-container">
+            <div class="random-text">CO2:</div>
+            <div class="random-number" id="co21"></div>
+        </div>
+        <div class="random-container">
+            <div class="random-text">Fugt %:</div>
+            <div class="random-number" id="fugt1"></div>
+        </div>
+    </div>
+
+    <script>
+        const currentPage = 'device1';
+    </script>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+
+</body>
+
+</html>

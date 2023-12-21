@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,800&family=Paytone+One&family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,400;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('backgroundWithSquare.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+button {
+    cursor: pointer;
+    padding: 15px;
+    width: 100%; /* Set the width to 100% of the parent container (textbox) */
+    background-color: #3498db; /* Change the background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+  }
+
+.logo {
+    font-size: 45px;
+    color: white;
+    user-select: none;
+}
+
+.textbox {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
